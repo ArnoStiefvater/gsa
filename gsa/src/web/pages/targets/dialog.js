@@ -73,6 +73,7 @@ const ALIVE_TESTS = [
   'ICMP & ARP Ping',
   'TCP-ACK Service & ARP Ping',
   'ICMP, TCP-ACK Service & ARP Ping',
+  'gs-host',
   'Consider Alive',
 ];
 

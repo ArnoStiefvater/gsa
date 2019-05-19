@@ -475,7 +475,7 @@ init_validator ()
     validator, "alive_tests",
     "^(Scan Config Default|ICMP Ping|TCP-ACK Service Ping|TCP-SYN Service "
     "Ping|ARP Ping|ICMP & TCP-ACK Service Ping|ICMP & ARP Ping|TCP-ACK Service "
-    "& ARP Ping|ICMP, TCP-ACK Service & ARP Ping|Consider Alive)$");
+    "& ARP Ping|ICMP, TCP-ACK Service & ARP Ping|gs-host|Consider Alive)$");
   gvm_validator_add (validator, "apply_filter", "^(no|no_pagination|full)$");
   gvm_validator_add (validator, "asset_name", "(?s)^.*$");
   gvm_validator_add (validator, "asset_type", "^(host|os)$");
